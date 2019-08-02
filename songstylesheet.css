@@ -1,0 +1,56 @@
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.hidden { visibility: hidden; }
+.unhidden { visibility: visible; }
+
+#grad1 {
+  height: 2000px;
+  background-color: lavender;
+  background-image: linear-gradient(lavender, lightseagreen); /* Standard syntax (must be last) */
+        }
+        h1 {
+          color: white;
+          text-align: center;
+          font-family: Georgia, Times, serif;
+          font-size: 45px;
+            }
+        h2 {
+          color: darkblue;
+          text-align: center;
+          font-family:  "Lucida Console", monospace;
+          font-size: 20px;}
+          h3 {
+            color: purple;
+            text-align: center;
+            font-family:  Verdana, Times, serif;
+            font-size: 15px;
+            }
+
+          .button:hover {
+
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            color: blue;
+          }
+            a {color: hotpink}
+
+
+            #myDIV {
+              width: 100%;
+              padding: 50px 0;
+              text-align: center;
+              margin-top: 20px;
+            }
